@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Change the theme according to the <br> device settings</h1>
+<style>
+    body{
+        background-color: #1e1c27;
+        color: white;
+        display: flex;
+        height: 95vh;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    @media (prefers-color-scheme: light) {
+        body{
+            background-color: aliceblue;
+            color: #1e1c27;
+        }
+    }
+</style>
+</body>
+</html>
